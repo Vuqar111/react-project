@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;  
+}
+
+form {
+  display: none;
+}
+
+.back-to-top:hover {
+  background: #39c0e7;
+  color: #fff;
+}
+
+
+@media (max-width: 756px) {
+
+  ::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+}
+}
+
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  right: 20px;
+  font-size: 100px;
+  
+  background: #1bb1dc;
+  color: white;
+  cursor: pointer;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 0 5px 10px #ccc;
+  transition: all 0.4s;
+}
+
+#icon {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  
+}
