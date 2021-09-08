@@ -16,24 +16,24 @@ return (
     <>
 <WhyUsContainer>
 
-<section id="why-us" class="why-us">
-      <div class="container-fluid" data-aos="fade-up">
+<section id="why-us" className="why-us">
+      <div className="container-fluid" data-aos="fade-up">
 
-        <header class="section-header">
+        <header className="section-header">
           <h3>Why choose us?</h3>
           <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
         </header>
 
-        <div class="row">
+        <div className="row">
 
-          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
-            <div class="why-us-img">
-              <img src={whyusimg} alt="" class="img-fluid" />
+          <div className="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+            <div className="why-us-img">
+              <img src={whyusimg} alt="" className="img-fluid" />
             </div>
           </div>
 
-          <div class="col-lg-6">
-            <div class="why-us-content">
+          <div className="col-lg-6">
+            <div className="why-us-content">
               <p>Molestiae omnis numquam corrupti omnis itaque. Voluptatum quidem impedit. Odio dolorum exercitationem est error omnis repudiandae ad dolorum sit.</p>
               <p>
                 Explicabo repellendus quia labore. Non optio quo ea ut ratione et quaerat. Porro facilis deleniti porro consequatur
@@ -42,18 +42,18 @@ return (
                 Odio omnis saepe qui. Veniam eaque ipsum. Ea quia voluptatum quis explicabo sed nihil repellat..
               </p>
 
-              <div class="features clearfix" data-aos="fade-up" data-aos-delay="100">
+              <div className="features clearfix" data-aos="fade-up" data-aos-delay="100">
                 <FaBox  id="icon1"/>
                 <h4>Corporis dolorem</h4>
                 <p>Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.</p>
               </div>
 
-              <div class="features clearfix" data-aos="fade-up" data-aos-delay="200">
+              <div className="features clearfix" data-aos="fade-up" data-aos-delay="200">
               <FaBox  id="icon1"/>
                 <h4>Eum ut aspernatur</h4>
                 <p>Molestias eius rerum iusto voluptas et ab cupiditate aut enim. Assumenda animi occaecati. Quo dolore fuga quasi autem aliquid ipsum odit. Perferendis doloremque iure nulla aut.</p>
               </div>
-              <div class="features clearfix" data-aos="fade-up" data-aos-delay="300">
+              <div className="features clearfix" data-aos="fade-up" data-aos-delay="300">
               <FaBox id="icon1"/>
                 <h4>Voluptates dolores</h4>
                 <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. Totam dolores ut enim ullam voluptas distinctio aut.</p>

@@ -9,26 +9,26 @@ import img4 from '../assets/img/testimonial-4.jpg';
 const OwnCarousel = () => {
   return (
     <OwnContainer className="testimonials">
-      <header class="section-header">
+      <header className="section-header">
         <h3>Testimonials</h3>
       </header>
 
 
-      <div class="row justify-content-center">
-          <div class="col-lg-8">
+      <div className="row justify-content-center">
+          <div className="col-lg-8">
 
-            <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper-wrapper">
+            <div className="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+              <div className="swiper-wrapper">
 
       
-      <Carousel itemsToShow={1} enableAutoPlay='true' >
+      <Carousel itemsToShow={1}  >
 
 
-        <div class="swiper-slide">
-          <div class="testimonial-item">
+        <div className="swiper-slide">
+          <div className="testimonial-item">
             <img
               src={img1}
-              class="testimonial-img"
+              className="testimonial-img"
               alt=""
             />
             <h3>Saul Goodman</h3>
@@ -44,11 +44,11 @@ const OwnCarousel = () => {
 
 
 
-        <div class="swiper-slide">
-          <div class="testimonial-item">
+        <div className="swiper-slide">
+          <div className="testimonial-item">
             <img
               src={img2}
-              class="testimonial-img"
+              className="testimonial-img"
               alt=""
             />
             <h3>Saul Goodman</h3>
@@ -63,11 +63,11 @@ const OwnCarousel = () => {
 
 
 
-        <div class="swiper-slide">
-          <div class="testimonial-item">
+        <div className="swiper-slide">
+          <div className="testimonial-item">
             <img
               src={img3}
-              class="testimonial-img"
+              className="testimonial-img"
               alt=""
             />
             <h3>Saul Goodman</h3>
@@ -84,11 +84,11 @@ const OwnCarousel = () => {
 
 
 
-        <div class="swiper-slide">
-          <div class="testimonial-item">
+        <div className="swiper-slide">
+          <div className="testimonial-item">
             <img
               src={img4}
-              class="testimonial-img"
+              className="testimonial-img"
               alt=""
             />
             <h3>Saul Goodman</h3>
@@ -106,11 +106,11 @@ const OwnCarousel = () => {
 
 
 
-        <div class="swiper-slide">
-          <div class="testimonial-item">
+        <div className="swiper-slide">
+          <div className="testimonial-item">
             <img
               src={img2}
-              class="testimonial-img"
+              className="testimonial-img"
               alt=""
             />
             <h3>Saul Goodman</h3>
@@ -127,11 +127,11 @@ const OwnCarousel = () => {
 
 
 
-        <div class="swiper-slide">
-          <div class="testimonial-item">
+        <div className="swiper-slide">
+          <div className="testimonial-item">
             <img
               src={img3}
-              class="testimonial-img"
+              className="testimonial-img"
               alt=""
             />
             <h3>Saul Goodman</h3>

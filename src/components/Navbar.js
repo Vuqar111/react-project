@@ -18,14 +18,14 @@ const Nav = () => {
  
   return (
     <NavContainer>
-     <header id="" class={navbar ? 'header active' : 'header'}>
-    <div class="container d-flex align-items-center">
+     <header id="" className={navbar ? 'header active' : 'header'}>
+    <div className="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">Kalem</a></h1>
+      <h1 className="logo me-auto"><a href="index.html">Kalem</a></h1>
       
       
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
+      <nav id="navbar" className="navbar order-last order-lg-0">
         <ul>
           <li><a    href="#hero">Ana Səhifə</a></li>
           <li><a   href="#about">Haqqımızda</a></li>
@@ -34,7 +34,7 @@ const Nav = () => {
           <li><a   href="#about">Mehsullarimiz</a></li>
           <li><a   href="#footer">Əlaqə</a></li>
         </ul>
-        <FaBars class="mobile-nav-toggle"  />
+        <FaBars className="mobile-nav-toggle"  />
       </nav>
 
     </div>

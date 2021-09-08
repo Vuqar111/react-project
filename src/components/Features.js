@@ -3,19 +3,19 @@ import styled from "styled-components";
 import img1 from '../assets/img/features-1.svg';
 import img2 from '../assets/img/features-2.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaAccessibleIcon } from "react-icons/fa";
+
 const Features = () => {
   return (
     <>
       <FeaturesContainer>
-        <div id="features" class="features">
-          <div class="container" data-aos="fade-up">
-            <div class="row feature-item">
-              <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-                <img src={img1} class="img-fluid" alt="" />
+        <div id="features" className="features">
+          <div className="container" data-aos="fade-up">
+            <div className="row feature-item">
+              <div className="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                <img src={img1} className="img-fluid" alt="" />
               </div>
               <div
-                class="col-lg-6 wow fadeInUp pt-5 pt-lg-0"
+                className="col-lg-6 wow fadeInUp pt-5 pt-lg-0"
                 data-aos="fade-left"
                 data-aos-delay="150"
               >
@@ -38,17 +38,17 @@ const Features = () => {
               </div>
             </div>
 
-            <div class="row feature-item mt-5 pt-5">
+            <div className="row feature-item mt-5 pt-5">
               <div
-                class="col-lg-6 wow fadeInUp order-1 order-lg-2"
+                className="col-lg-6 wow fadeInUp order-1 order-lg-2"
                 data-aos="fade-left"
                 data-aos-delay="100"
               >
-                <img src={img2} class="img-fluid" alt="" />
+                <img src={img2} className="img-fluid" alt="" />
               </div>
 
               <div
-                class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1"
+                className="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1"
                 data-aos="fade-right"
                 data-aos-delay="150"
               >

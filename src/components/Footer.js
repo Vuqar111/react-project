@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Icon from '@material-ui/core/Icon';
-import {AiOutlineTwitter } from 'react-bootstrap-icons';
 import {FaTwitter,
   FaLinkedin,
   FaFacebook,
@@ -21,24 +19,24 @@ return (
 
     <FooterContainer>
 
-    <footer id="footer" class="section-bg">
-    <div class="footer-top">
-      <div class="container">
+    <footer id="footer" className="section-bg">
+    <div className="footer-top">
+      <div className="container">
 
-        <div class="row">
+        <div className="row">
 
-          <div class="col-lg-6">
+          <div className="col-lg-6">
 
-            <div class="row">
+            <div className="row">
 
-              <div class="col-sm-6">
+              <div className="col-sm-6">
 
-                <div class="footer-info">
+                <div className="footer-info">
                   <h3>Rapid</h3>
                   <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
                 </div>
 
-                <div class="footer-newsletter">
+                <div className="footer-newsletter">
                   <h4>Our Newsletter</h4>
                   <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem.</p>
 
@@ -47,8 +45,8 @@ return (
 
               </div>
 
-              <div class="col-sm-6">
-                <div class="footer-links">
+              <div className="col-sm-6">
+                <div className="footer-links">
                   <h4>Useful Links</h4>
                   <ul>
                     <li><a href="#">Home</a></li>
@@ -59,7 +57,7 @@ return (
                   </ul>
                 </div>
 
-                <div class="footer-links">
+                <div className="footer-links">
                   <h4>Contact Us</h4>
                   <p>
                     A108 Adam Street <br/>
@@ -70,7 +68,7 @@ return (
                   </p>
                 </div>
 
-                <div class="social-links">
+                <div className="social-links">
                   <a href="#" className="twitter"><FaTwitter/></a>
                   <a href="#" className="facebook"><FaFacebook/></a>
                   <a href="#" className="instagram"><FaInstagram /></a>
@@ -83,26 +81,26 @@ return (
 
           </div>
 
-          <div class="col-lg-6">
+          <div className="col-lg-6">
 
-            <div class="form">
+            <div className="form">
 
               <h4>Send us a message</h4>
               <p>Eos ipsa est voluptates. Nostrum nam libero ipsa vero. Debitis quasi sit eaque numquam similique commodi harum aut temporibus.</p>
               
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
+                <div className="form-group">
+                  <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
                 </div>
-                <div class="form-group mt-3">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
+                <div className="form-group mt-3">
+                  <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" required />
                 </div>
-                <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required />
+                <div className="form-group mt-3">
+                  <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required />
                 </div>
-                <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <div className="form-group mt-3">
+                  <textarea className="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                 </div>
-                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+                <div className="text-center"><button type="submit" title="Send Message">Send Message</button></div>
             
 
             </div>
@@ -114,11 +112,11 @@ return (
       </div>
     </div>
 
-    <div class="container">
-      <div class="copyright">
+    <div className="container">
+      <div className="copyright">
         &copy; Copyright <strong>Rapid</strong>. All Rights Reserved
       </div>
-      <div class="credits">
+      <div className="credits">
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>

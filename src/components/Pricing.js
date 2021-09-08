@@ -7,76 +7,76 @@ const Pricing = () => {
     return (
 <PricingContainer>
 
-<section id="pricing" class="pricing section-bg wow fadeInUp">
+<section id="pricing" className="pricing section-bg wow fadeInUp">
 
-      <div class="container" data-aos="fade-up">
+      <div className="container" data-aos="fade-up">
 
-        <header class="section-header">
+        <header className="section-header">
           <h3>Pricing</h3>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </header>
 
-        <div class="row flex-items-xs-middle flex-items-xs-center cont">
+        <div className="row flex-items-xs-middle flex-items-xs-center cont">
 
         
-          <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="card">
-              <div class="card-header">
-                <h3><span class="currency">$</span>19<span class="period">/month</span></h3>
+          <div className="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div className="card">
+              <div className="card-header">
+                <h3><span className="currency">$</span>19<span className="period">/month</span></h3>
               </div>
-              <div class="card-block">
-                <h4 class="card-title">
+              <div className="card-block">
+                <h4 className="card-title">
                   Basic Plan
                 </h4>
-                <ul class="list-group">
-                  <li class="list-group-item">Odio animi voluptates</li>
-                  <li class="list-group-item">Inventore quisquam et</li>
-                  <li class="list-group-item">Et perspiciatis suscipit</li>
-                  <li class="list-group-item">24/7 Support System</li>
+                <ul className="list-group">
+                  <li className="list-group-item">Odio animi voluptates</li>
+                  <li className="list-group-item">Inventore quisquam et</li>
+                  <li className="list-group-item">Et perspiciatis suscipit</li>
+                  <li className="list-group-item">24/7 Support System</li>
                 </ul>
-                <a href="#" class="btn">Choose Plan</a>
+                <a href="#" className="btn">Choose Plan</a>
               </div>
             </div>
           </div>
 
          
-          <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="card">
-              <div class="card-header">
-                <h3><span class="currency">$</span>29<span class="period">/month</span></h3>
+          <div className="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div className="card">
+              <div className="card-header">
+                <h3><span className="currency">$</span>29<span className="period">/month</span></h3>
               </div>
-              <div class="card-block">
-                <h4 class="card-title">
+              <div className="card-block">
+                <h4 className="card-title">
                   Regular Plan
                 </h4>
-                <ul class="list-group">
-                  <li class="list-group-item">Odio animi voluptates</li>
-                  <li class="list-group-item">Inventore quisquam et</li>
-                  <li class="list-group-item">Et perspiciatis suscipit</li>
-                  <li class="list-group-item">24/7 Support System</li>
+                <ul className="list-group">
+                  <li className="list-group-item">Odio animi voluptates</li>
+                  <li className="list-group-item">Inventore quisquam et</li>
+                  <li className="list-group-item">Et perspiciatis suscipit</li>
+                  <li className="list-group-item">24/7 Support System</li>
                 </ul>
-                <a href="#" class="btn">Choose Plan</a>
+                <a href="#" className="btn">Choose Plan</a>
               </div>
             </div>
           </div>
 
           
-          <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="card">
-              <div class="card-header">
-                <h3><span class="currency">$</span>39<span class="period">/month</span></h3>
+          <div className="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div className="card">
+              <div className="card-header">
+                <h3><span className="currency">$</span>39<span className="period">/month</span></h3>
               </div>
-              <div class="card-block">
-                <h4 class="card-title">
+              <div className="card-block">
+                <h4 className="card-title">
                   Premium Plan
                 </h4>
-                <ul class="list-group">
-                  <li class="list-group-item">Odio animi voluptates</li>
-                  <li class="list-group-item">Inventore quisquam et</li>
-                  <li class="list-group-item">Et perspiciatis suscipit</li>
-                  <li class="list-group-item">24/7 Support System</li>
+                <ul className="list-group">
+                  <li className="list-group-item">Odio animi voluptates</li>
+                  <li className="list-group-item">Inventore quisquam et</li>
+                  <li className="list-group-item">Et perspiciatis suscipit</li>
+                  <li className="list-group-item">24/7 Support System</li>
                 </ul>
-                <a href="#" class="btn">Choose Plan</a>
+                <a href="#" className="btn">Choose Plan</a>
               </div>
             </div>
           </div>

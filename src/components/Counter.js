@@ -8,25 +8,25 @@ AOS.init();
 function Counter () {
   return (
 
-<CounterContainer class="container">
-<div class="row counters" data-aos="fade-up" data-aos-delay="100">
+<CounterContainer className="container">
+<div className="row counters" data-aos="fade-up" data-aos-delay="100">
 
-  <div class="col-lg-3 col-6 text-center">
+  <div className="col-lg-3 col-6 text-center">
   <CountUp end={600} duration={5}  className="purecounter"/>  
   <p>Clients</p>
   </div>
 
-  <div class="col-lg-3 col-6 text-center">
+  <div className="col-lg-3 col-6 text-center">
   <CountUp end={400} duration={5}   className="purecounter"/>
     <p>Projects</p>
   </div>
 
-  <div class="col-lg-3 col-6 text-center">
+  <div className="col-lg-3 col-6 text-center">
   <CountUp end={800} duration={5}   className="purecounter"/>
     <p>Hours Of Support</p>
   </div>
 
-  <div class="col-lg-3 col-6 text-center">
+  <div className="col-lg-3 col-6 text-center">
   <CountUp end={600} duration={5} className="purecounter"/> 
     <p>Hard Workers</p>
   </div>

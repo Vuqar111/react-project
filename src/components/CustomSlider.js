@@ -16,55 +16,53 @@ const OwnCarousel = () => {
     return (
 
 <CustomContainer>
-      <section id="clients" class="clients">
-      <div class="container" data-aos="zoom-in">
+      <section id="clients" className="clients">
+      <div className="container" data-aos="zoom-in">
 
-        <header class="section-header">
+        <header className="section-header">
           <h3>Our Clients</h3>
         </header>
 
-        <div class="clients-slider swiper-container">
-          <Carousel enableSwipe='true' itemsToScroll={1} autoPlaySpeed='true' itemsToShow={4} class="swiper-wrapper align-items-center">
+        <div className="clients-slider swiper-container">
+          <Carousel  itemsToScroll={1}  itemsToShow={4} className="swiper-wrapper align-items-center">
 
           
-              <img src={img1} class="img-fluid" alt="" />
-              <img src={img2} class="img-fluid" alt="" />
-              <img src={img3} class="img-fluid" alt="" />
-              <img src={img4} class="img-fluid" alt="" />
-              <img src={img5} class="img-fluid" alt="" />
-              <img src={img6} class="img-fluid" alt="" />
-              <img src={img7} class="img-fluid" alt="" />
-              <img src={img8} class="img-fluid" alt="" />
+              <img src={img1} className="img-fluid" alt="" />
+              <img src={img2} className="img-fluid" alt="" />
+              <img src={img3} className="img-fluid" alt="" />
+              <img src={img4} className="img-fluid" alt="" />
+              <img src={img5} className="img-fluid" alt="" />
+              <img src={img6} className="img-fluid" alt="" />
+              <img src={img7} className="img-fluid" alt="" />
+              <img src={img8} className="img-fluid" alt="" />
 
-              <img src={img1} class="img-fluid" alt="" />
-              <img src={img2} class="img-fluid" alt="" />
-              <img src={img3} class="img-fluid" alt="" />
-              <img src={img4} class="img-fluid" alt="" />
-              <img src={img5} class="img-fluid" alt="" />
-              <img src={img6} class="img-fluid" alt="" />
-              <img src={img7} class="img-fluid" alt="" />
-              <img src={img8} class="img-fluid" alt="" />
-
-
-              <img src={img1} class="img-fluid" alt="" />
-              <img src={img2} class="img-fluid" alt="" />
-              <img src={img3} class="img-fluid" alt="" />
-              <img src={img4} class="img-fluid" alt="" />
-              <img src={img5} class="img-fluid" alt="" />
-              <img src={img6} class="img-fluid" alt="" />
-              <img src={img7} class="img-fluid" alt="" />
-              <img src={img8} class="img-fluid" alt="" />
+              <img src={img1} className="img-fluid" alt="" />
+              <img src={img2} className="img-fluid" alt="" />
+              <img src={img3} className="img-fluid" alt="" />
+              <img src={img4} className="img-fluid" alt="" />
+              <img src={img5} className="img-fluid" alt="" />
+              <img src={img6} className="img-fluid" alt="" />
+              <img src={img7} className="img-fluid" alt="" />
+              <img src={img8} className="img-fluid" alt="" />
 
 
+              <img src={img1} className="img-fluid" alt="" />
+              <img src={img2} className="img-fluid" alt="" />
+              <img src={img3} className="img-fluid" alt="" />
+              <img src={img4} className="img-fluid" alt="" />
+              <img src={img5} className="img-fluid" alt="" />
+              <img src={img6} className="img-fluid" alt="" />
+              <img src={img7} className="img-fluid" alt="" />
+              <img src={img8} className="img-fluid" alt="" />
 
-              <img src={img1} class="img-fluid" alt="" />
-              <img src={img2} class="img-fluid" alt="" />
-              <img src={img3} class="img-fluid" alt="" />
-              <img src={img4} class="img-fluid" alt="" />
-              <img src={img5} class="img-fluid" alt="" />
-              <img src={img6} class="img-fluid" alt="" />
-              <img src={img7} class="img-fluid" alt="" />
-              <img src={img8} class="img-fluid" alt="" />
+              <img src={img1} className="img-fluid" alt="" />
+              <img src={img2} className="img-fluid" alt="" />
+              <img src={img3} className="img-fluid" alt="" />
+              <img src={img4} className="img-fluid" alt="" />
+              <img src={img5} className="img-fluid" alt="" />
+              <img src={img6} className="img-fluid" alt="" />
+              <img src={img7} className="img-fluid" alt="" />
+              <img src={img8} className="img-fluid" alt="" />
               
 
               

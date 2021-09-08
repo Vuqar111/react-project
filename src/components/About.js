@@ -15,19 +15,19 @@ const About = () => {
   return (
     <>
       <AboutContainer>
-      <section id="about" class="about">
+      <section id="about" className="about">
 
-<div class="container" data-aos="fade-up">
-  <div class="row">
+<div className="container" data-aos="fade-up">
+  <div className="row">
 
-    <div class="col-lg-5 col-md-6">
-      <div class="about-img" data-aos="fade-right" data-aos-delay="100">
+    <div className="col-lg-5 col-md-6">
+      <div className="about-img" data-aos="fade-right" data-aos-delay="100">
         <img src={aboutimg} alt="" />
       </div>
     </div>
 
-    <div class="col-lg-7 col-md-6">
-      <div class="about-content" data-aos="fade-left" data-aos-delay="100">
+    <div className="col-lg-7 col-md-6">
+      <div className="about-content" data-aos="fade-left" data-aos-delay="100">
         <h2>About Us</h2>
         <h3>Odio sed id eos et laboriosam consequatur eos earum soluta.</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

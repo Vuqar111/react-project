@@ -6,7 +6,7 @@ export default function App() {
 
   return (
     <AccordionContainer>
-      <header class="section-header">
+      <header className="section-header">
         <h3>Frequently asked questions</h3>
       </header>
       <Fragment>

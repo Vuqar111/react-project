@@ -12,60 +12,60 @@ const Services = () => {
   return (
 
     <ServicesContainer>
-    <section id="services" class="services section-bg">
-        <div class="container" data-aos="fade-up">
+    <section id="services" className="services section-bg">
+        <div className="container" data-aos="fade-up">
   
-          <header class="section-header">
+          <header className="section-header">
             <h3>Services</h3>
             
             <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
           </header>
   
-          <div class="row">
+          <div className="row">
   
-            <div class="col-md-6 col-lg-4 wow bounceInUp" data-aos="zoom-in" data-aos-delay="100">
-              <div class="box">
-                <div class="icon" ><FaBox/></div>
-                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <div className="col-md-6 col-lg-4 wow bounceInUp" data-aos="zoom-in" data-aos-delay="100">
+              <div className="box">
+                <div className="icon" ><FaBox/></div>
+                <h4 className="title"><a href="">Lorem Ipsum</a></h4>
+                <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-              <div class="box">
-                <div class="icon" ><FaBox /></div>
-                <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <div className="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+              <div className="box">
+                <div className="icon" ><FaBox /></div>
+                <h4 className="title"><a href="">Dolor Sitema</a></h4>
+                <p className="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
               </div>
             </div>
   
-            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-              <div class="box">
-                <div class="icon" ><FaBox /></div>
-                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <div className="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+              <div className="box">
+                <div className="icon" ><FaBox /></div>
+                <h4 className="title"><a href="">Sed ut perspiciatis</a></h4>
+                <p className="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 wow" data-aos="zoom-in" data-aos-delay="100">
-              <div class="box">
-                <div class="icon" ><FaBox />
+            <div className="col-md-6 col-lg-4 wow" data-aos="zoom-in" data-aos-delay="100">
+              <div className="box">
+                <div className="icon" ><FaBox />
                 </div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <h4 className="title"><a href="">Magni Dolores</a></h4>
+                <p className="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
               </div>
             </div>
   
-            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-          <div class=" box">
-              <div class="icon" ><FaBox /></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            <div className="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+          <div className=" box">
+              <div className="icon" ><FaBox /></div>
+              <h4 className="title"><a href="">Nemo Enim</a></h4>
+              <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="box">
-              <div class="icon" ><FaBox /></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          <div className="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div className="box">
+              <div className="icon" ><FaBox /></div>
+              <h4 className="title"><a href="">Eiusmod Tempor</a></h4>
+              <p className="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
           </div>
   
